@@ -1,0 +1,18 @@
+# spring:
+#   application:
+#     name: order
+#   cloud:
+#     config:
+#       discovery:
+#         enabled: true
+#         service-id: CONFIG
+#       profile: test
+#   datasource:
+#     driver-class-name: com.mysql.jdbc.Driver
+#     username: root
+#     password: 123456
+#     url: jdbc:mysql://192.168.38.131:3306/ppc?characterEncoding=utf-8&useSSL=false
+# eureka:
+#   client:
+#     service-url:
+#       defaultZone: http://localhost:8761/eureka/
