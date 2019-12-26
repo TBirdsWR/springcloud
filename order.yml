@@ -7,11 +7,13 @@
 #         enabled: true
 #         service-id: CONFIG
 #       profile: test
-#   datasource:
-#     driver-class-name: com.mysql.jdbc.Driver
-#     username: root
-#     password: 123456
-#     url: jdbc:mysql://192.168.38.131:3306/ppc?characterEncoding=utf-8&useSSL=false
+#     datasource:
+        url: jdbc:mysql://192.168.1.125/ppc?characterEncoding=utf-8&useSSL=false
+        username: ppc
+        password: 123456
+        driver-class-name: com.mysql.jdbc.Driver
+      jpa:
+        show-sql: true
 # eureka:
 #   client:
 #     service-url:
