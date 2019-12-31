@@ -1,4 +1,4 @@
-var: var2
+var: var333
 server:
   port: 8070
 spring:
