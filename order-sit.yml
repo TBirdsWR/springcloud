@@ -10,7 +10,7 @@ spring:
   jpa:
     show-sql: true
   rabbitmq:
-    host: 192.168.38.149
+    host: 192.168.1.125
     port: 5672
 
 
